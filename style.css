@@ -1,18 +1,27 @@
-body { margin: 5% 15% 10% 15% }
+/* For mobile phones: */
+[class*="col-"] {
+	/* For tablets and desktop */
+	body { margin: 2% 8% 6% 6% }
+	h2 { font-size: 32px; line-height: 38px; margin: 0 0 32px; }
+	h3 { font-size: 26px; line-height: 30px; margin: 10% 0% 2%; }
+	p { font-size: 11px; line-height: 28px; margin: 0 0 28px; width: 90%; }
+	pre { font-size: 12pt; }
+}
+@media only screen and (min-width: 600px) {
+    	
+	/* For tablets and desktop */
+	body { margin: 5% 15% 10% 15% }
+	h2 { font-size: 64px; line-height: 84px; margin: 0 0 64px; }
+	h3 { font-size: 26px; line-height: 36px; margin: 10% 0% 2%; }
+	p { font-size: 18px; line-height: 28px; margin: 0 0 28px; width: 75%; }
+	pre { font-size: 14pt; }
+}
 
-h2 { color: #666666; font-family: 'Libre Baskerville', serif; font-size: 64px; font-weight: normal; line-height: 68px; margin: 0 0 54px; }
-
-h3 { font-size: 26px; font-family: Georgia, serif; line-height: 36px; margin: 10% 0% 2%; font-weight: normal; }
-
-p { color: #000000; font-family: Georgia, serif; font-size: 18px; line-height: 28px; margin: 0 0 28px; width: 75%; }
-
+h2 { color: #666666; font-family: 'Libre Baskerville', serif; font-weight: normal; }
+h3 { font-family: Georgia, serif; font-weight: normal; }
+p { color: #000000; font-family: Georgia, serif; }
 a { color: #336633; font-family: Georgia, serif; text-decoration: none; }
-
-pre { font-size: 14pt; }
-
 a:hover { color: #336633; text-decoration: underline; }
-
-
 
 .highlight .hll { background-color: #ffffcc }
 .highlight  { background: #f8f8f8; }

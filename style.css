@@ -1,7 +1,17 @@
-body {
-    font-family: "Courier New", Courier, monospace;
-    font-size: 14pt;
-}
+body { margin: 5% 15% 10% 15% }
+
+h2 { color: #666666; font-family: 'Libre Baskerville', serif; font-size: 64px; font-weight: normal; line-height: 68px; margin: 0 0 54px; }
+
+h3 { font-size: 26px; font-family: Georgia, serif; line-height: 36px; margin: 10% 0% 2%; font-weight: normal; }
+
+p { color: #000000; font-family: Georgia, serif; font-size: 18px; line-height: 28px; margin: 0 0 28px; width: 75%; }
+
+a { color: #336633; font-family: Georgia, serif; text-decoration: none; }
+
+pre { font-size: 14pt; }
+
+a:hover { color: #336633; text-decoration: underline; }
+
 
 
 .highlight .hll { background-color: #ffffcc }

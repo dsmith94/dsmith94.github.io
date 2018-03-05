@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>rebel coder</title>
+  <category>Software Development</category>
+  <link>https://dsmith94.github.io</link>
+  <description>Free your code</description>
+    <item>
+      <title>why c is still on top</title>
+      <link>https://dsmith94.github.io/web-devel.html</link>
+      <description>C is TIOBE's programming language of 2017, 46 years after
+its first release.</description>
+    </item>
+    <item>
+      <title>The foolish rantings of custom blogging software</title>
+      <link>https://dsmith94.github.io/first_post.html</link>
+      <description>Thrilling content lies beyond these words.</description>
+    </item>
+</channel>
+</rss>
